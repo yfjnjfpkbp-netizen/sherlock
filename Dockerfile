@@ -29,3 +29,4 @@ RUN pip3 install --no-cache-dir sherlock-project==$VERSION_TAG
 WORKDIR /sherlock
 
 ENTRYPOINT ["sherlock"]
+
